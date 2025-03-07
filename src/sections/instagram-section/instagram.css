@@ -1,0 +1,19 @@
+.instagram-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instagram-section .instagram-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+.instagram-section .instagram-wrapper .card {
+  width: 100%;
+  height: 450px;
+  border: 2px solid black;
+  border-radius: 2rem;
+}/*# sourceMappingURL=instagram.css.map */

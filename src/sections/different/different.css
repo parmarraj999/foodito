@@ -1,0 +1,31 @@
+.different_container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+.different_container h1 {
+  font-size: 6rem;
+  color: #5A320F;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", serif;
+  line-height: 0.9;
+  letter-spacing: 3px;
+}
+.different_container p {
+  width: 60%;
+  color: #5A320F;
+  font-weight: 600;
+}
+.different_container button {
+  padding: 1rem 3rem;
+  font-weight: 600;
+  font-size: 18px;
+  color: #5A320F;
+  background: transparent;
+  border: 2px solid #5A320F;
+  border-radius: 2rem;
+}/*# sourceMappingURL=different.css.map */
