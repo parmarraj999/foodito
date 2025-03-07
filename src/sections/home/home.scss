@@ -37,3 +37,21 @@
         left: 59%;
     }
 }
+
+@media screen and (max-width:765px) {
+    .home-container{
+        border-radius: 25px;
+        .home-wrapper{
+            h1{
+                font-size: 28vw;
+            }
+        }
+        .image-one{
+            top: 30%;
+            left: 20%;
+        }
+        .image-two{
+            top: 70%;
+        }
+    }
+}

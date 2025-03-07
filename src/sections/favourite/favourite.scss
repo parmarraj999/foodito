@@ -6,6 +6,9 @@
     display: flex;
     gap: 1rem;
     padding: 2rem;
+    @media screen and (max-width:765px) {
+        flex-direction: column;
+    }
     .left{
         padding: 0rem 1.4rem;
         display: flex;
@@ -64,4 +67,25 @@
             border-radius: 1.2rem;
         }
     }
+}
+
+@media screen and (max-width:765px) {
+   .favourite-container{
+    flex-direction: column;
+    gap: 1.5rem;
+    .left{
+        padding: 0 0;
+    }
+    .right{
+        .imageOne{
+            width: 280px;
+            height: 160px;
+            left: 10%;
+        }
+        .imageTwo{
+            width: 280px;
+            height: 160px;
+        }
+    }
+   }
 }

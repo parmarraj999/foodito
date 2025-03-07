@@ -56,4 +56,15 @@
   font-size: 18px;
   color: rgb(255, 34, 0);
   font-weight: 800;
+}
+
+@media screen and (max-width: 765px) {
+  .instagram-section {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .instagram-section .instagram-wrapper {
+    width: 88%;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=instagram.css.map */

@@ -1,17 +1,17 @@
-.pizza_container{
+.pizza_container {
     width: 100%;
-    height: 60vh;   
+    height: 60vh;
     border-radius: 3.5rem;
-    background: #ECDBC3;
+    background: #ecdbc3;
     display: flex;
     justify-content: space-evenly;
-    .pizza-content{
+    .pizza-content {
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 1.5rem;
-        .badge{
+        .badge {
             height: 40px;
             width: 100px;
             background: red;
@@ -23,27 +23,41 @@
             font-weight: 600;
             border-radius: 2rem;
         }
-        h1{
+        h1 {
             font-family: "Bebas Neue", serif;
             font-size: 5rem;
-            color: #5A320F;
-            line-height: .9;
+            color: #5a320f;
+            line-height: 0.9;
         }
-        p{
+        p {
             font-size: 22px;
-            color: #5A320F;
+            color: #5a320f;
             font-weight: 500;
         }
-        .pizza-size-list{
+        .pizza-size-list {
             display: flex;
             flex-direction: column;
-            gap: .4rem;
-            li{
+            gap: 0.4rem;
+            li {
                 font-size: 18px;
                 font-weight: 700;
-                color: #5A320F;
+                color: #5a320f;
             }
         }
     }
+}
 
+@media screen and (max-width: 765px) {
+    .pizza_container {
+        height: fit-content;
+        flex-direction: column;
+        padding: 1rem;
+        border-radius: 30px;
+        width: 98%;
+        margin: 0 auto;
+        img{
+            width: 90%;
+            margin-top: 4rem;
+        }
+    }
 }

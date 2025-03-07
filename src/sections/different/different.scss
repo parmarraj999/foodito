@@ -29,3 +29,16 @@
         border-radius: 2rem;
     }
 }
+@media screen and (max-width:765px) {
+    .different_container{
+        margin-top: 5rem;
+        height: fit-content;
+        align-items: flex-start;
+        h1{
+            font-size: 5rem;
+        }
+        p{
+            width: 95%;
+        }
+    }
+}

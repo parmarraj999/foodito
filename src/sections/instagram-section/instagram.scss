@@ -57,3 +57,13 @@
         }
     }
 }
+
+@media screen and (max-width: 765px) {
+    .instagram-section{
+        height: fit-content;
+        .instagram-wrapper{
+            width: 88%;
+            flex-direction: column;
+        }
+    }
+}

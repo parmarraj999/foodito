@@ -2,7 +2,7 @@
   width: 100%;
   height: 60vh;
   border-radius: 3.5rem;
-  background: #ECDBC3;
+  background: #ecdbc3;
   display: flex;
   justify-content: space-evenly;
 }
@@ -28,12 +28,12 @@
 .pizza_container .pizza-content h1 {
   font-family: "Bebas Neue", serif;
   font-size: 5rem;
-  color: #5A320F;
+  color: #5a320f;
   line-height: 0.9;
 }
 .pizza_container .pizza-content p {
   font-size: 22px;
-  color: #5A320F;
+  color: #5a320f;
   font-weight: 500;
 }
 .pizza_container .pizza-content .pizza-size-list {
@@ -44,5 +44,21 @@
 .pizza_container .pizza-content .pizza-size-list li {
   font-size: 18px;
   font-weight: 700;
-  color: #5A320F;
+  color: #5a320f;
+}
+
+@media screen and (max-width: 765px) {
+  .pizza_container {
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 30px;
+    width: 98%;
+    margin: 0 auto;
+  }
+  .pizza_container img {
+    width: 90%;
+    margin-top: 4rem;
+  }
 }/*# sourceMappingURL=pizza.css.map */

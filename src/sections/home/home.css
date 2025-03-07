@@ -35,4 +35,20 @@
   position: absolute;
   top: 60%;
   left: 59%;
+}
+
+@media screen and (max-width: 765px) {
+  .home-container {
+    border-radius: 25px;
+  }
+  .home-container .home-wrapper h1 {
+    font-size: 28vw;
+  }
+  .home-container .image-one {
+    top: 30%;
+    left: 20%;
+  }
+  .home-container .image-two {
+    top: 70%;
+  }
 }/*# sourceMappingURL=home.css.map */

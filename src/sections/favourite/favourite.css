@@ -8,6 +8,11 @@
   gap: 1rem;
   padding: 2rem;
 }
+@media screen and (max-width: 765px) {
+  .favourite-container {
+    flex-direction: column;
+  }
+}
 .favourite-container .left {
   padding: 0rem 1.4rem;
   display: flex;
@@ -65,4 +70,23 @@
   left: 20%;
   top: -10%;
   border-radius: 1.2rem;
+}
+
+@media screen and (max-width: 765px) {
+  .favourite-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .favourite-container .left {
+    padding: 0 0;
+  }
+  .favourite-container .right .imageOne {
+    width: 280px;
+    height: 160px;
+    left: 10%;
+  }
+  .favourite-container .right .imageTwo {
+    width: 280px;
+    height: 160px;
+  }
 }/*# sourceMappingURL=favourite.css.map */
