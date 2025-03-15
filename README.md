@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
    ```
 
 ## Usage
-Once the development server is running, open `http://localhost:3000` in your browser to view the project.
+Once the development server is running, open `https://foodito-hd.netlify.app/` in your browser to view the project.
 
 ## License
 This project is for practice purposes and does not have a specific license.
