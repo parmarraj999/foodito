@@ -67,4 +67,14 @@
     width: 88%;
     flex-direction: column;
   }
+  .instagram-section .instagram-wrapper .card {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .instagram-section .instagram-wrapper .card .card-header {
+    height: 50px;
+  }
+  .instagram-section .instagram-wrapper .card .card-details {
+    height: 50px;
+  }
 }/*# sourceMappingURL=instagram.css.map */

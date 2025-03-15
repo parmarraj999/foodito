@@ -31,14 +31,16 @@
 }
 @media screen and (max-width:765px) {
     .different_container{
-        margin-top: 5rem;
+        width: 90%;
+        margin: 5rem auto;
         height: fit-content;
-        align-items: flex-start;
+        align-items: center;
         h1{
             font-size: 5rem;
         }
         p{
             width: 95%;
+            text-align: center;
         }
     }
 }

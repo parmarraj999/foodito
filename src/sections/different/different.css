@@ -32,15 +32,17 @@
 
 @media screen and (max-width: 765px) {
   .different_container {
-    margin-top: 5rem;
+    width: 90%;
+    margin: 5rem auto;
     height: -moz-fit-content;
     height: fit-content;
-    align-items: flex-start;
+    align-items: center;
   }
   .different_container h1 {
     font-size: 5rem;
   }
   .different_container p {
     width: 95%;
+    text-align: center;
   }
 }/*# sourceMappingURL=different.css.map */

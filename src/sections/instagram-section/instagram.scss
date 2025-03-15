@@ -64,6 +64,15 @@
         .instagram-wrapper{
             width: 88%;
             flex-direction: column;
+            .card{
+                height: fit-content ;
+                .card-header{
+                    height: 50px;
+                }
+                .card-details{
+                    height: 50px;
+                }
+            }
         }
     }
 }
