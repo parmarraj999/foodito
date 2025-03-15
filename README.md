@@ -11,6 +11,8 @@ Foodito is a practice project designed to showcase a well-structured UI with a g
 - **React.js** - Component-based UI library
 - **SASS** - Preprocessor for better styling and maintainability
 
+  [Visit Foodito]((https://foodito-hd.netlify.app/))
+
 ## Installation
 To run this project locally, follow these steps:
 
